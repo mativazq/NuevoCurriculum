@@ -1,20 +1,49 @@
 .about-me {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    padding: 50px;
-    border-radius: 10px;
-  }
-  
-  .about-text {
-    max-width: 50%;
-  }
-  
-  .about-image img {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 50px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-text {
+  max-width: 60%;
+}
+
+.about-text h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+}
+
+.about-image img {
+  width: 200px;
+  height: auto;
+  border-radius: 100px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.about-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.button {
+  display: flex;
+  background-color: black;
+  color: white;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #007bff;
+}
+

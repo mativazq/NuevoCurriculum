@@ -1,6 +1,6 @@
 import React from 'react'
 import './title.css'
-import miFoto from "../../Images/Cv-2.jpg"; // Asegúrate de que la ruta es correcta
+import miFoto from "../../Images/Cv-2.jpg"; 
 
 const Title = () => {
   return (

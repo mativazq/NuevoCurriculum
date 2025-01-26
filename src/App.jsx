@@ -2,6 +2,7 @@
 import './App.css'
 import AboutMe from './Components/AboutMe/AboutMe'
 import Header from './Components/Header/Header'
+import Study from './Components/Study/Study'
 import Title from './Components/Title/Title'
 
 
@@ -10,6 +11,7 @@ function App() {
         <>
             <Header />           
             <Title />
+            <Study />
             <AboutMe />
         </>
     )
