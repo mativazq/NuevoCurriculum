@@ -3,8 +3,8 @@ import './education.css'
 
 const Education = () => {
   return (
-    <section className="education">
-      <h2>📖 Educación</h2>
+    <section  id='study' className="education">
+      <h2>📖 Estudios</h2>
       <p className="education-title">
         <span className="dot"></span>
         Carrera de Desarrollo Frontend React - Coder House

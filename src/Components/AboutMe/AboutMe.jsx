@@ -6,13 +6,17 @@ import curriculum from "../cv_vazquez_matias.pdf"
 
 const AboutMe = () => {
   return (
-    <section className="about-me">
+    <section id='aboutMe' className="about-me">
       <div className="about-text">
         <h2>Sobre mí</h2>
         <p>
-          ¡Hola! Soy Mati, desarrollador Frontend apasionado por la tecnología y Fotografo profesional.
-          Actualmente, estoy en búsqueda de nuevas oportunidades para seguir
-          creciendo y aportando mis conocimientos.
+          ¡Hola! Soy Mati, soy de Santa Fe Capital y estoy en busqueda laboral. Soy fotografo profesional
+          y suelo manejar programas de edición como Lightroom y Photoshop.
+        </p>
+        <p>
+          Soy desarrollador Frontend hace un año y en este corto tiempo tuve el gusto de trabajar en distintos proyectos
+          propios buscando siempre el aprendizaje y el avance en las distintas tecnologias. Actualmente me encuentro a punto
+          de iniciar la carrera de Diseño Multimedia y Web en la Universidad Nacional del Litoral en modalidad virtual.
         </p>
         <p>
           Me especializo en tecnologías como React.js, JavaScript, HTML y CSS asi tambien Python y Django.
