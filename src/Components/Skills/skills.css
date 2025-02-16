@@ -7,7 +7,7 @@
 }
 
 .skills-title {
-  font-size: 24px;
+  font-size: 36px;
   display: flex;
   text-align: justify;
   align-items: center;
@@ -18,7 +18,7 @@
   flex-wrap: wrap; /* Permite dividir en varias filas */
   justify-content: center; /* Centra los íconos */
   gap: 20px; /* Espacio entre íconos */
-  max-width: 600px; /* Ajusta según tu diseño */
+  max-width: 800px; /* Ajusta según tu diseño */
   margin: auto;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .skill img {
-  width: 60px; /* Tamaño uniforme */
-  height: 60px; /* Mantiene la proporción */
+  width: 90px; /* Tamaño uniforme */
+  height: 90px; /* Mantiene la proporción */
   object-fit: contain;
 }
