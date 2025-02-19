@@ -4,7 +4,8 @@ import AboutMe from './Components/AboutMe/AboutMe'
 import Header from './Components/Header/Header'
 import Education from './Components/Education/Education'
 import Title from './Components/Title/Title'
-import Skills from './Components/Skills/skills'
+import Skills from './Components/Skills/Skills'
+import Projects from './Components/Projects/Projects'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Education />
             <Skills />
             <AboutMe />
+            <Projects />
         </>
     )
 }
