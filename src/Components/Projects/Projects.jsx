@@ -33,8 +33,8 @@ const Projects = () => {
 
 
           <div className="buttons-container">
-            <a href="https://github.com/mativazq/NuevoCurriculum" className="button">Code</a>
-            <a href="https://matias-vazquez.netlify.app/" className="button">Deploy</a>
+            <a href="https://github.com/mativazq/mi-tienda-nba" className="button">Code</a>
+            <a href="https://mi-tienda-vazquez-matias.netlify.app/" className="button">Deploy</a>
           </div>
         </div>
       </div>
