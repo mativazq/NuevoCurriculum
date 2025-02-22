@@ -7,6 +7,8 @@
   border-radius: 10px;
   max-width: 950px;
   margin: auto;
+  flex-wrap: wrap; /* Permite que los elementos se apilen en pantallas pequeñas */
+  gap: 20px;
 }
 
 .about-text {
@@ -14,9 +16,6 @@
 }
 
 .about-text h2 {
-  display: flex;
-  align-items: center;
-  gap: 10px;
   font-size: 36px;
 }
 
@@ -24,28 +23,60 @@
   font-size: 20px;
 }
 
+.about-image {
+  flex-shrink: 0;
+}
+
 .about-image img {
   width: 300px;
   height: auto;
+  border-radius: 10px; /* Para dar un mejor estilo */
 }
 
 .about-buttons {
   margin-top: 20px;
   display: flex;
   gap: 15px;
+  justify-content: flex-start; /* Alinear a la izquierda */
 }
 
 .button {
   display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: black;
   color: white;
   border: 1px solid gray;
-  padding: 10px;
+  padding: 10px 15px;
   border-radius: 10px;
   text-decoration: none;
+  font-size: 16px;
+  width: auto; /* Evita que los botones sean demasiado anchos */
+  min-width: 150px; /* Opcional: Define un tamaño mínimo */
 }
 
-.button:hover {
-  background-color: #007bff;
-}
+/* 📱 Responsividad */
+@media screen and (max-width: 768px) {
+  .about-me {
+    flex-direction: column; /* Apilar texto e imagen en pantallas pequeñas */
+    text-align: center;
+    padding: 30px;
+  }
 
+  .about-text {
+    max-width: 100%;
+  }
+
+  .about-image img {
+    width: 80%; /* La imagen se adapta mejor */
+    max-width: 250px; /* Tamaño máximo en móviles */
+  }
+
+  .about-buttons {
+    justify-content: center; /* Centra los botones en pantallas pequeñas */
+  }
+
+  .button {
+    min-width: 120px; /* Hace que los botones sean más pequeños en móviles */
+  }
+}
