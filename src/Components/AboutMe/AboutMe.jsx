@@ -1,7 +1,7 @@
 import React from 'react'
 import './aboutMe.css'
 import fotoAbout from "../../Images/Sin título-1.png";
-import curriculum from "../cv_vazquez_matias.pdf"
+import curriculum from "../Matias-Vazquez-Español.pdf"
 
 
 const AboutMe = () => {

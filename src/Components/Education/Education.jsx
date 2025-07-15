@@ -5,32 +5,26 @@ const Education = () => {
   return (
     <section  id='study' className="education">
       <h2>📖 Estudios</h2>
+            <p className="education-title">
+        <span className="dot"></span>
+        Tecnicatura Universitaria en Diseño Multimedia y Web - Universidad Nacional del Litoral 
+      </p>
+      <p>03/2025 – Actualidad</p>
       <p className="education-title">
         <span className="dot"></span>
-        Carrera de Desarrollo Frontend React - Coder House
+        Carrera de Desarrollo Frontend React - Coder House  
       </p>
-      <div className="education-grid">
-        <a href="https://pub.coderhouse.com/legacy-certificates/62f110d351a36102616164b0?lang=es" className="education-item">
-          Desarrollo Web
-        </a>
-        <a href="https://pub.coderhouse.com/legacy-certificates/640557f0e703ab000e558606?lang=es" className="education-item">
-          JavaScript
-        </a>
-        <a href="https://pub.coderhouse.com/legacy-certificates/64caa5a0a1ec64398d9fc5d6?lang=es" className="education-item">
-          ReactJS
-        </a>
-        <a href="https://pub.coderhouse.com/legacy-certificates/64caa5a0a1ec64b7049fc5d8?lang=es" className="education-item">
-          Desarrollo Frontend React
-        </a>
-      </div>
+      <p>01/2023 – 07/2023</p>
       <p className="education-title">
         <span className="dot"></span>
-        Desarrollo Web en Python
+        Desarrollo Web en Python - Coder House   
       </p>
-      <a href="https://pub.coderhouse.com/legacy-certificates/664fd64962cb29a7cd81d991?lang=es" className="education-item">
-          Desarrollo Web en Python
-        </a>
-
+      <p>01/2024 – 04/2024</p>
+            <p className="education-title">
+        <span className="dot"></span>
+        Tecnico en Informática Personal y Profesional - Escuela de Educación Tecnica N° 480 "Manuel Belgrano"
+      </p>
+      <p>03/2006 – 12/2012</p>
     </section>
   );
 };
