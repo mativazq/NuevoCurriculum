@@ -6,13 +6,50 @@ import ImgGefes from "../../Images/Gefes.png";
 import ImgFotografia from "../../Images/Fotografia.png";
 import ImgMvFoto from "../../Images/MvFoto.png";
 import TiendaJs from "../../Images/TiendaJs.png";
+import ImgVanguardia from "../../Images/Vanguardia.png";
 
 const Projects = () => {
   return (
     <section className="projects-section">
       <h2 className="projects-title">Proyectos</h2>
 
-                  <div className="project-card">
+
+      <div className="project-card">
+        <img src={ImgVanguardia} alt="Proyecto" className="project-image" />
+
+        <div className="project-content">
+          <h3 className="project-name">Vanguardia | Muebles a medida </h3>
+
+          <div className="tech-stack">
+            <span className="tech-tag">React</span>
+            <span className="tech-tag">Vite</span>
+            <span className="tech-tag">Bootstrap</span>
+          </div>
+
+          <p className="project-description">
+            Proyecto desarrollado con React y Vite, se trata de un sitio web institucional para una empresa de amoblamientos a medida. Presenta una navegación clara y moderna, como primer etapa de desarrollo funciona como catalogo digital.
+            El objetivo es transmitir la identidad de la marca y facilitar la comunicación con potenciales clientes. El diseño prioriza la experiencia del usuario, con un enfoque responsive para adaptarse a diferentes dispositivos.
+          </p>
+
+          <div className="buttons-container">
+            <a
+              href="https://github.com/mativazq/Vanguardia"
+              className="button"
+            >
+              Code
+            </a>
+            <a
+              href="https://vanguardia-design.netlify.app/"
+              className="button"
+            >
+              Deploy
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="project-card">
         <img src={ImgFotografia} alt="Proyecto" className="project-image" />
 
         <div className="project-content">
